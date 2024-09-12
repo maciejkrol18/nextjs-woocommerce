@@ -27,7 +27,7 @@ function ProductCardSkeleton() {
 export default function ProductsPageLoader() {
   return (
     <Container className="flex flex-col gap-4">
-      <h1 className="text-4xl py-4 font-semibold">Our products</h1>
+      <h1 className="text-4xl pb-4 font-semibold">Our products</h1>
       <div className="flex flex-wrap gap-8">
         {Array.from({ length: 10 }).map((_, idx) => (
           // biome-ignore lint/suspicious/noArrayIndexKey: not an issue here
